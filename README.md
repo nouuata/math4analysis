@@ -33,9 +33,9 @@
 [`pms`]: https://github.com/nouuata/math4analysis/tree/main/data/pms
 [`merged`]: https://github.com/nouuata/math4analysis/tree/main/data/merged
 [`derived`]: https://github.com/nouuata/math4analysis/tree/main/data/derived
-['by_region']: https://github.com/nouuata/math4analysis/tree/main/data/derived/by_region
-['cdf']: https://github.com/nouuata/math4analysis/tree/main/data/derived/cdf
-['classes']: https://github.com/nouuata/math4analysis/tree/main/data/derived/classes
+[`by_region`]: https://github.com/nouuata/math4analysis/tree/main/data/derived/by_region
+[`cdf`]: https://github.com/nouuata/math4analysis/tree/main/data/derived/cdf
+[`classes`]: https://github.com/nouuata/math4analysis/tree/main/data/derived/classes
 [`plots`]: https://github.com/nouuata/math4analysis/tree/main/plots
 [`article`]: https://github.com/nouuata/math4analysis/tree/main/plots/article
 [`by_acceptance`]: https://github.com/nouuata/math4analysis/tree/main/plots/by_acceptance
