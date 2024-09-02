@@ -26,6 +26,15 @@
 - [`joint_dist`]:      Съвместни дистрибуции
    - [`with_size`]:        Съвместни дистрибуции с данни за големината на групата
 
+## Генериране на данните и графиките
+
+Генериране е нужно само в случайте, когато има промени в скриптовете. Процесът на генерация изисква следната последователност от команди:
+```
+python3 merger.py 
+python3 derive_data_and_plots.py
+python3 derive_article_plots.py
+``` 
+
 [`data`]: https://github.com/nouuata/math4analysis/tree/main/data
 [`keng`]: https://github.com/nouuata/math4analysis/tree/main/data/keng
 [`matvs`]: https://github.com/nouuata/math4analysis/tree/main/data/matvs
