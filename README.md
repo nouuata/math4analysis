@@ -9,7 +9,7 @@
 - ['matvs']:   Структурирани резултати по области oт Математика за Всеки 2023/2024
 - ['olymp']:   Структурирани резултати по области oт Областен кръг на Олимпиадата 2023/2024
 - ['pms']:     Структурирани резултати по области oт Пролетно Математическо Състезание 2023/2024 
-- ['medged']:  Сляти резултати на четирите състезания по области
+- ['merged']:  Сляти резултати на четирите състезания по области
 - ['derived']: Данни свързани с анализа
    - ['by_region']: Данни свързани с анализа сегментирани по региони
    - ['cdf']:       Данни свързани с кумулативните дистрибуции
@@ -31,6 +31,7 @@
 [`matvs`]: https://github.com/nouuata/math4analysis/tree/main/data/matvs
 [`olymp`]: https://github.com/nouuata/math4analysis/tree/main/data/olymp
 [`pms`]: https://github.com/nouuata/math4analysis/tree/main/data/pms
+[`merged`]: https://github.com/nouuata/math4analysis/tree/main/data/merged
 [`derived`]: https://github.com/nouuata/math4analysis/tree/main/data/derived
 ['by_region']: https://github.com/nouuata/math4analysis/tree/main/data/derived/by_region
 ['cdf']: https://github.com/nouuata/math4analysis/tree/main/data/derived/cdf
