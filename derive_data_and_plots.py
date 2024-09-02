@@ -7,7 +7,7 @@ import os
 from glob import glob
 import cv2
 
-generate_plots = False
+generate_plots = True
 
 file = 'data/merged_ALL_outer.csv'
 
@@ -813,9 +813,6 @@ plt_hist_fld = plot_fld + 'hist/'
 if not os.path.exists(plt_hist_fld):
     os.makedirs(plt_hist_fld)
 
-dfx.to_csv(fld+'failed_ALL.csv', index=False, quoting=csv.QUOTE_NONE)
-dfs.to_csv(fld+'failed_S.csv', index=False, quoting=csv.QUOTE_NONE)
-
 df.to_csv(fld+'data_ALL.csv', index=False, quoting=csv.QUOTE_NONE)
 
 df44 = df[(df['GI_rank'] <= 1300) & (df['badm'] == 0)]
@@ -984,6 +981,7 @@ ax.barh(br2, sup_cls, barWidth, color ='gold',
         edgecolor ='grey', label ='Средно за областта')
 ax.barh(br3, low_cls, barWidth, color ='r', 
         edgecolor ='grey', label ='Най-слаб клас')
+ax.set_xlim([0.368,1.0])
 fig.subplots_adjust(left=0.15)
 plt.xlabel('AGI', fontweight ='bold', fontsize = 10) 
 plt.ylabel('Област', fontweight ='bold', fontsize = 10)
