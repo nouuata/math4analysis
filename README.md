@@ -19,8 +19,8 @@
 [`plots`]:  Графики свързани с математически състезания за прием в 5 клас през 2023/2024 година
 - ['article']:         Графики използвани в статията
 - ['by_acceptance']:   Графики демонстриращи различни критерии за прием 
-- ['by_region']:       Графики демонстриращи регионални различия в приема
-- ['cdf']:             Кумулативни функции
+- ['plot_by_region']:       Графики демонстриращи регионални различия в приема
+- ['plot_cdf']:             Кумулативни функции
 - ['hist']:            SGI хистограми
 - [`joint_3d`]:        Съвместни 3D дистрибуции
 - [`joint_dist`]:      Съвместни дистрибуции
@@ -39,8 +39,8 @@
 [`plots`]: https://github.com/nouuata/math4analysis/tree/main/plots
 [`article`]: https://github.com/nouuata/math4analysis/tree/main/plots/article
 [`by_acceptance`]: https://github.com/nouuata/math4analysis/tree/main/plots/by_acceptance
-[`by_region`]: https://github.com/nouuata/math4analysis/tree/main/plots/by_region
-[`cdf`]: https://github.com/nouuata/math4analysis/tree/main/plots/cdf
+[`plot_by_region`]: https://github.com/nouuata/math4analysis/tree/main/plots/by_region
+[`plot_cdf`]: https://github.com/nouuata/math4analysis/tree/main/plots/cdf
 [`hist`]: https://github.com/nouuata/math4analysis/tree/main/plots/hist
 [`joint_3d`]: https://github.com/nouuata/math4analysis/tree/main/plots/joint_3d
 [`joint_dist`]: https://github.com/nouuata/math4analysis/tree/main/plots/joint_dist
