@@ -2,6 +2,8 @@
 
 Настоящата папка съдържа данни и графики свързани с статията "Изследване на достъпа до разширено изучаване на математика в 5 - 7 клас и липсата на възможности пред талантливите ученици от големите градове в България".
 
+Статията е може да се достъпите чрез [`math4analysis`]. Ако има проблем с визуализацията на браузъра, можете да я изтеглите с бутона в дясно.  
+
 ## Съдържание
 
 [`data`]:  Данни за математически състезания за прием в 5 клас през 2023/2024 година
@@ -54,3 +56,4 @@ python3 derive_article_plots.py
 [`joint_3d`]: https://github.com/nouuata/math4analysis/tree/main/plots/joint_3d
 [`joint_dist`]: https://github.com/nouuata/math4analysis/tree/main/plots/joint_dist
 [`with_size`]: https://github.com/nouuata/math4analysis/tree/main/plots/joint_dist/with_size
+[`math4analysis`]: https://github.com/nouuata/math4analysis/blob/main/math4analysis.pdf
