@@ -8,7 +8,7 @@ from glob import glob
 import cv2
 from matplotlib.patches import Patch
 
-generate_data = True
+generate_data = False
 generate_plots = True
 
 file = 'data/merged_ALL_outer.csv'
@@ -1004,7 +1004,7 @@ legend_elements = [Patch(facecolor='g', label='Индекс на приет кл
                    Patch(facecolor='firebrick', label='Индекс на неприет клас'), 
                    Patch(facecolor='coral', label='Индекс на най-силен неприет ученик')]
 ax.set_xlim([0.368,1.05])
-fig.subplots_adjust(left=0.15, top = 0.99, bottom = 0.05)
+fig.subplots_adjust(left=0.15, top = 0.99, bottom = 0.06)
 plt.xlabel('AGI', fontweight ='bold', fontsize = 10) 
 plt.ylabel('Област', fontweight ='bold', fontsize = 10)
 plt.yticks([r + 0.5*barWidth for r in range(len(cacc_cls))], clabel_lst)
@@ -1037,7 +1037,7 @@ legend_elements = [Patch(facecolor='g', label='Индекс на приет кл
                    Patch(facecolor='firebrick', label='Индекс на неприет клас'), 
                    Patch(facecolor='coral', label='Индекс на най-силен неприет ученик')]
 ax.set_xlim([0.368,1.05])
-fig.subplots_adjust(left=0.15, top = 0.99, bottom = 0.05)
+fig.subplots_adjust(left=0.15, top = 0.99, bottom = 0.06)
 plt.xlabel('AGI', fontweight ='bold', fontsize = 10) 
 plt.ylabel('Област', fontweight ='bold', fontsize = 10)
 plt.yticks([r + 0.5*barWidth for r in range(len(cacc_cls))], clabel_lst)
@@ -1070,12 +1070,14 @@ legend_elements = [Patch(facecolor='g', label='Индекс на приет кл
                    Patch(facecolor='firebrick', label='Индекс на неприет клас'), 
                    Patch(facecolor='coral', label='Индекс на най-силен неприет ученик')]
 ax.set_xlim([0.368,1.05])
-fig.subplots_adjust(left=0.15, top = 0.99, bottom = 0.05)
+fig.subplots_adjust(left=0.15, top = 0.99, bottom = 0.06)
 plt.xlabel('AGI', fontweight ='bold', fontsize = 10) 
 plt.ylabel('Област', fontweight ='bold', fontsize = 10)
 plt.yticks([r + 0.5*barWidth for r in range(len(cacc_cls))], clabel_lst)
 plt.legend(handles=legend_elements)
 plt.savefig(plot_fld+'dist_AGI_classes_3.jpg')
+
+exit()
 
 rmun_lst = ['Благоевград','Бургас','Варна','Велико Търново','Видин','Враца','Габрово','Добрич','Кърджали','Кюстендил','Ловеч','Монтана','Пазарджик','Перник','Плевен','Пловдив','Разград','Русе','Силистра','Сливен','Смолян','София област','София-град','Стара Загора','Търговище','Хасково','Шумен','Ямбол']
 rmun_lst.reverse()
@@ -1095,7 +1097,7 @@ ax.barh(br1, acc_cls, barWidth, color ='r',
         edgecolor ='grey', label ='Прием на класове') 
 ax.barh(br2, sup_cls, barWidth, color ='g', 
         edgecolor ='grey', label ='Kласове по резултат')
-fig.subplots_adjust(left=0.15)
+fig.subplots_adjust(left=0.15, top = 0.99, bottom = 0.04)
 plt.xlabel('Брой класове', fontweight ='bold', fontsize = 10) 
 plt.ylabel('Област', fontweight ='bold', fontsize = 10)
 plt.yticks([r + 0.5*barWidth for r in range(len(acc_cls))], rmun_lst)
@@ -1122,7 +1124,7 @@ ax.barh(br2, sup_cls, barWidth, color ='gold',
 ax.barh(br3, low_cls, barWidth, color ='r', 
         edgecolor ='grey', label ='Най-слаб клас')
 ax.set_xlim([0.368,1.0])
-fig.subplots_adjust(left=0.15)
+fig.subplots_adjust(left=0.15, top = 0.99, bottom = 0.04)
 plt.xlabel('AGI', fontweight ='bold', fontsize = 10) 
 plt.ylabel('Област', fontweight ='bold', fontsize = 10)
 plt.yticks([r + barWidth for r in range(len(acc_cls))], rmun_lst)
