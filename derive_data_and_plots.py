@@ -971,7 +971,7 @@ legend_elements = [Patch(facecolor='g', label='Индекс на приет кл
                    Patch(facecolor='lightgreen', label='Индекс на най-силен приет ученик'),
                    Patch(facecolor='firebrick', label='Индекс на неприет клас'), 
                    Patch(facecolor='coral', label='Индекс на най-силен неприет ученик')]
-ax.set_xlim([0.0,1.05])
+ax.set_xlim([0.368,1.05])
 fig.subplots_adjust(left=0.15)
 plt.xlabel('AGI', fontweight ='bold', fontsize = 10) 
 plt.ylabel('Област', fontweight ='bold', fontsize = 10)
@@ -1003,7 +1003,7 @@ legend_elements = [Patch(facecolor='g', label='Индекс на приет кл
                    Patch(facecolor='lightgreen', label='Индекс на най-силен приет ученик'),
                    Patch(facecolor='firebrick', label='Индекс на неприет клас'), 
                    Patch(facecolor='coral', label='Индекс на най-силен неприет ученик')]
-ax.set_xlim([0.0,1.05])
+ax.set_xlim([0.368,1.05])
 fig.subplots_adjust(left=0.15, top = 0.99, bottom = 0.05)
 plt.xlabel('AGI', fontweight ='bold', fontsize = 10) 
 plt.ylabel('Област', fontweight ='bold', fontsize = 10)
@@ -1036,7 +1036,7 @@ legend_elements = [Patch(facecolor='g', label='Индекс на приет кл
                    Patch(facecolor='lightgreen', label='Индекс на най-силен приет ученик'),
                    Patch(facecolor='firebrick', label='Индекс на неприет клас'), 
                    Patch(facecolor='coral', label='Индекс на най-силен неприет ученик')]
-ax.set_xlim([0.0,1.05])
+ax.set_xlim([0.368,1.05])
 fig.subplots_adjust(left=0.15, top = 0.99, bottom = 0.05)
 plt.xlabel('AGI', fontweight ='bold', fontsize = 10) 
 plt.ylabel('Област', fontweight ='bold', fontsize = 10)
@@ -1069,7 +1069,7 @@ legend_elements = [Patch(facecolor='g', label='Индекс на приет кл
                    Patch(facecolor='lightgreen', label='Индекс на най-силен приет ученик'),
                    Patch(facecolor='firebrick', label='Индекс на неприет клас'), 
                    Patch(facecolor='coral', label='Индекс на най-силен неприет ученик')]
-ax.set_xlim([0.0,1.05])
+ax.set_xlim([0.368,1.05])
 fig.subplots_adjust(left=0.15, top = 0.99, bottom = 0.05)
 plt.xlabel('AGI', fontweight ='bold', fontsize = 10) 
 plt.ylabel('Област', fontweight ='bold', fontsize = 10)
